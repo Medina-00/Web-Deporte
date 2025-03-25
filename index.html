@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados Deportivos</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: hsl(240, 37%, 13%);
+            color: #ecf0f1;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 10% auto;
+            text-align: center;
+            padding: 30px;
+            border: 3px solid #ffffff;
+            border-radius: 90px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        a {
+            padding: 15px 30px;
+            background-color: hsl(240, 37%, 13%);
+            border-radius: 30px;
+            border: 1px solid #ffffff;
+            text-align: center;
+            margin: 20px 10px;
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        a:hover {
+            background-color: hsl(240, 37%, 13%);
+            color: #2980b9;
+            border: 1px solid #2980b9;
+            transform: scale(1.09);
+        }
+        a:focus {
+            outline: none;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+           
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 20px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            a {
+                font-size: 16px;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>¡Selecciona el deporte para ver los resultados!</h2>
+        <a href="mlb/mlb.html"><img src="https://www.mlbstatic.com/team-logos/league-on-dark/1.svg" alt="" class="logo"></a>
+        <a href="nba/nba.html"><img src="https://cdn.nba.com/logos/leagues/logo-nba.svg" alt="" class="logo"></a>
+    </div>
+</body>
+</html>
